@@ -21,8 +21,8 @@ module.exports.run = function(movies) {
 
 	// made an async function call to handle the axios get request
 	return (async () => {
+		const arr = [];
 		try{
-			const arr = [];
 
 	//for every movie fetched, destructure that object for the Title,
 	//Year and Genre then push it into our result array
